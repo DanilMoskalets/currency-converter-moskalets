@@ -1,0 +1,36 @@
+.currency {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+.currency img {
+  height: 23px;
+  width: 35px;
+  padding-right: 5px;
+  object-fit: contain;
+}
+
+.currency span {
+  white-space: nowrap;
+}
+
+.fullName {
+  color: rgb(92, 102, 123);
+}
+
+.visible {
+  display: unset;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 275px) {
+  .visible {
+    display: none;
+  }
+}
